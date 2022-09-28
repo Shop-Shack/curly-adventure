@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./index.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Dancing Script:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Prata:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Solway:wght@700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Pridi:wght@300;400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Public Sans:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-2">
+      <div class="nav-bar-div">
+        <div class="nav-bar-div"><div class="navigation-div"></div></div>
+        <div class="shopshack-div">Shop.Shack</div>
+        <div class="about-us-div">About Us</div>
+        <div class="contact-div">Contact</div>
+        <div class="home-div">Home</div>
+        <img class="shopify-icon" alt="" src="public/shopify@2x.png" />
+        <div class="shop-div">Shop</div>
+        <img class="vector-icon" alt="" src="public/vector.svg" /><img
+          class="user-profile-icon"
+          alt=""
+          src="public/userprofile.svg"
+        />
+      </div>
+      <img class="image-cloth-icon" alt="" src="public/imagecloth@2x.png" />
+      <div class="right-div">
+        <div class="right-product-card-div">
+          <div class="rectangle-div"></div>
+          <b class="solid-white-shirt">Solid white shirt</b>
+          <div class="product-desc-div">
+            <div class="rectangle-div1"></div>
+            <b class="product-description-b">Product description</b>
+            <div class="product-desc-text-div">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s
+            </div>
+          </div>
+          <div class="quantity-div">
+            <div class="quantity-div1">Quantity</div>
+            <div class="rectangle-div2"></div>
+            <div class="div">-</div>
+            <input class="quantity-input-div">
+            <div class="div1">+</div>
+          </div>
+          <div class="div2">₹ 999.00</div>
+        </div>
+        <div class="size-div">
+          <div class="size-div1">Size</div>
+          <img class="ellipse-icon" alt="" src="public/ellipse-1.svg" />
+          <div class="xl-div">XL</div>
+          <img class="ellipse-icon1" alt="" src="public/ellipse-1.svg" />
+          <div class="l-div">L</div>
+          <img class="ellipse-icon2" alt="" src="public/ellipse-3.svg" />
+          <div class="m-div">M</div>
+          <img class="ellipse-icon3" alt="" src="public/ellipse-11.svg" />
+          <div class="s-div">S</div>
+        </div>
+        <div class="addcheckout-div">
+          <div class="rectangle-div3"></div>
+          <div class="rectangle-div4"></div>
+          <img class="forward-icon" alt="" src="public/forward@2x.png" />
+          <div class="rectangle-div5"></div>
+          <div class="add-to-cart">Add to Cart</div>
+          <div class="proceed-to-purchase" id="proceedToPurchase">
+            Proceed to Purchase
+          </div>
+          <img class="buy-icon" alt="" src="public/buy@2x.png" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var proceedToPurchase = document.getElementById("proceedToPurchase");
+      if (proceedToPurchase) {
+        proceedToPurchase.addEventListener("click", function (e) {
+          window.location.href = "./desktop-4.html";
+        });
+      }
+      </script>
+  </body>
+</html>
